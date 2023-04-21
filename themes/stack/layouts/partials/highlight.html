@@ -1,0 +1,6 @@
+{{ $language := .Get "language" }}
+{{ $code := .Inner }}
+
+<pre tabindex="0" class="highlight">
+  <code class="hljs {{ $language }}">{{ $code | safeHTML }}</code>
+</pre>
