@@ -1,9 +1,15 @@
-{{/*   -----------------------------------------------   */}}
+<!-- ----------------------------------------------- -->
 
-{{/* 加载条 */}}
-
-<script src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js" integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css" integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE" crossorigin="anonymous" />
+<!-- 加载条 -->
+<script
+	src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
+	integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
+	crossorigin="anonymous"></script>
+<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
+	integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
+	crossorigin="anonymous" />
 <script>
 	NProgress.start();
 	document.addEventListener("readystatechange", () => {
@@ -12,12 +18,12 @@
 	});
 </script>
 
-{{/*   -----------------------------------------------   */}}
+<!-- ----------------------------------------------- -->
 
-{{/* 返回顶部按钮 */}} 
+<!--返回顶部按钮 -->
 <a href="#" id="back-to-top" title="返回顶部"></a>
 
-{{/* 返回顶部CSS */}}
+<!--返回顶部CSS -->
 <style>
 	#back-to-top {
 		display: none;
@@ -82,12 +88,12 @@
 	/* 目录显示时，隐藏按钮 */
 	@media screen and (min-width: 1536px) {
 		#back-to-top {
-		  visibility: hidden;
+			visibility: hidden;
 		}
-	  }
+	}
 </style>
 
-{{/* 返回顶部JS */}}
+<!--返回顶部JS -->
 <script>
 	function backToTop() {
 		document.documentElement.scrollIntoView({

@@ -115,12 +115,21 @@ highlight:
 
 ### 增加样式
 
-```go
-{{/*   -----------------------------------------------   */}}
+修改路径：<code>themes\stack\layouts\partials\footer\custom.html</code>
 
-{{/* 加载条 */}}
-<script src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js" integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css" integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE" crossorigin="anonymous" />
+```html
+<!-- ----------------------------------------------- -->
+
+<!-- 加载条 -->
+<script
+	src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
+	integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
+	crossorigin="anonymous"></script>
+<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
+	integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
+	crossorigin="anonymous" />
 <script>
 	NProgress.start();
 	document.addEventListener("readystatechange", () => {
@@ -129,14 +138,12 @@ highlight:
 	});
 </script>
 
-{{/*   -----------------------------------------------   */}}
+<!-- ----------------------------------------------- -->
 
-{{/* 返回顶部按钮 */}}
+<!--返回顶部按钮 -->
 <a href="#" id="back-to-top" title="返回顶部"></a>
 
-{{/*   -----------------------------------------------   */}}
-
-{{/* 返回顶部CSS */}}
+<!--返回顶部CSS -->
 <style>
 	#back-to-top {
 		display: none;
@@ -146,7 +153,7 @@ highlight:
 		width: 55px;
 		height: 55px;
 		border-radius: 7px;
-		background-color: #fff;
+		background-color: var(--back-to-top-background);
 		box-shadow: var(--shadow-l2);
 		font-size: 30px;
 		text-align: center;
@@ -163,7 +170,7 @@ highlight:
 		height: 10px;
 		width: 10px;
 		border-width: 0 0 2px 2px;
-		border-color: #000000;
+		border-color: var(--back-to-top-color);
 		border-style: solid;
 	}
 
@@ -176,6 +183,9 @@ highlight:
 		#back-to-top {
 			bottom: 20px;
 			right: 20px;
+			width: 40px;
+			height: 40px;
+			font-size: 10px;
 		}
 	}
 
@@ -198,15 +208,12 @@ highlight:
 	/* 目录显示时，隐藏按钮 */
 	@media screen and (min-width: 1536px) {
 		#back-to-top {
-		  	visibility: hidden;
+			visibility: hidden;
 		}
-	  }
-/* 返回顶部按钮对暗色模式下适应 themes\stack\assets\scss\custom.scss:328 */
+	}
 </style>
 
-{{/*   -----------------------------------------------   */}}
-
-{{/* 返回顶部JS */}}
+<!--返回顶部JS -->
 <script>
 	function backToTop() {
 		document.documentElement.scrollIntoView({
@@ -238,6 +245,8 @@ highlight:
 ```
 
 ### 全部调整
+
+修改路径：<code>themes\stack\assets\scss\custom.scss</code>
 
 ```scss
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
