@@ -354,3 +354,10 @@ kbd {
 		--back-to-top-color: #ffffff;
 	}
 }
+
+/* ----------------------------------------------- */
+
+/* 修复 config.yaml 文件中 lineNumbersInTable 设置为 true 后代码溢出 */
+.highlight div {
+	overflow: auto;
+}
