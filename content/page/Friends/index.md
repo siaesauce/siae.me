@@ -18,6 +18,10 @@ links:
       description: 不努力，不放弃。
       website: https://www.holatto.com/
       image: https://www.holatto.com/avatar.jpg
+    - title: Exqlnet
+      description: Exqlnet的奇思妙想
+      website: https://blog.exql.net/
+      image: https://avatars.githubusercontent.com/u/44158642?s=400&u=9d04eeb8ea869b533c0a5eba3444810c491d4cfd&v=4
 ---
 
 ### 我的信息
