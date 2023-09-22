@@ -40,7 +40,7 @@ export default function Home() {
           {links.map((link, index) => (
             <span key={link.title}>
               <a
-                href={link.href}
+                href={link.title === 'E-mail' ? `mailto:${link.href}` : link.href}
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 className="text-base font-semibold text-blue-600 transition-colors duration-300 hover:text-blue-400 sm:text-xl"
