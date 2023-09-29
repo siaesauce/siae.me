@@ -33,7 +33,7 @@ export default function Friends() {
       <article className="markdown">
         <MDXComponent code={friends.body.code} />
       </article>
-      <div className="sm:grid grid-cols-3 grid-flow-col gap-x-7 my-8">
+      <div className="sm:grid grid-cols-3 grid-flow-row gap-x-7 gap-y-5 my-6">
         {friends.links.map((link: LinkType) => (
           <Link
             className="flex flex-row items-center justify-center rounded-lg mt-4 py-2 px-4 sm:mt-0 bg-white shadow-lg shadow-transparent/5 dark:bg-gray-600"
@@ -56,9 +56,7 @@ export default function Friends() {
           </Link>
         ))}
       </div>
-      <div className="mt-14">
-        <GiscusComment />
-      </div>
+      <GiscusComment />
     </Page>
   )
 }
