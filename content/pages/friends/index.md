@@ -14,6 +14,10 @@ links:
     description: Exqlnet的奇思妙想
     website: https://blog.exql.net/
     image: https://s2.loli.net/2023/09/13/P9qjeRyYt8vriKW.jpg
+  - title: Deleted Site
+    description: 并没有（
+    website: https://moa.moe/
+    image: https://s2.loli.net/2023/09/29/kg8mUP2FyDaBs9x.jpg
 ---
 
 ## Info
