@@ -1,7 +1,7 @@
 ---
 title: 降落到 NextJS 的博客新体验！
 date: 2023-09-20
-categories: 'Chatter'
+categories: '碎碎念'
 tags: ['NextJS', 'Blog', 'React', 'TailwindCSS', 'Contentlayer']
 description: 使用 Next.js 重构博客的体验和过程。
 ---
