@@ -1,5 +1,5 @@
 .markdown {
-  @apply break-words text-gray-700 text-opacity-90 leading-7 dark:text-gray-400;
+  @apply break-words text-gray-700 text-opacity-90 dark:text-gray-400;
   h1,
   h2,
   h3,
@@ -39,7 +39,7 @@
   }
 
   code {
-    @apply bg-slate-200 font-medium dark:bg-gray-800 mx-1 py-0.5 px-2 rounded whitespace-pre;
+    @apply bg-slate-200 font-medium dark:bg-gray-800 mx-0.5 py-0 px-2 rounded whitespace-pre;
   }
 
   pre {

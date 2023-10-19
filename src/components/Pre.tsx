@@ -33,7 +33,7 @@ export default function Pre({ children }: Props) {
       <button
         aria-label="Copy code"
         type="button"
-        className={`absolute right-5 top-4 h-8 w-8 rounded border-2 bg-gray-600 p-1 opacity-0 hover:opacity-100 group-hover:opacity-100 dark:bg-gray-800 transition-all duration-300 ${
+        className={`absolute right-5 top-3 h-8 w-8 rounded border-2 bg-gray-600 p-1 opacity-0 hover:opacity-100 group-hover:opacity-100 dark:bg-gray-800 transition-all duration-300 ${
           copied
             ? 'border-green-500 focus:border-green-500 focus:outline-none'
             : 'border-gray-300 dark:border-gray-400'
